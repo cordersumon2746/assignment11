@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1250px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.lfwf{
+    background: #2b1f8e;
+    text-align: center;
+    padding: 10px;
+}
+
+.lfwf img{
+    width: 100px;
+}
+
+.welcome{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 116px;
+    color: white;
+    display: inline-block;
+}
+
+.welcome a{
+    
+        width: 70%;
+        text-align: center;
+        padding: 5px 8px;
+        text-decoration: none;
+          background: #008000;
+        margin-top: 173px;
+        color: white;
+  
+        
+      }
+
+
+/* menu */
+.menu{
+    text-align: center;
+    background: #ff0000;
+}
+.menu ul{
+list-style: none;
+padding: 17px 13px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li{
+    display: inline-block;
+   padding: 5px 8px;
+    border-right: 1px solid white;
+}
+
+.menu ul li:nth-child(6){
+    border-right: 1px solid  #ffe1e170 ;
+}
+
+.menu ul li:nth-child(4){
+    border-right:1px solid #ffe1e170 ;
+}
+
+.menu ul li:nth-child(3){
+    border-right: 1px solid  #ffe1e170 ;
+}
+
+
+
+/* banner */
+.banner{
+    background-image: url("https://i.ibb.co/jVqgqmT/pngtree-simple-creative-background-design-in-the-sky-backgroundcartoonlovelyplanetstarry-skyillustra.jpg");
+    width: 100%;
+    height: 400px;
+    margin-top: -16px;
+    text-align: center;
+}
+
+/* banner2 */
+
+.banner2 h2{
+    text-align: center;
+    background: #008000;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 126px;
+    display: inline-block;
+    width: 100%;
+}
+
+.banner2 p{
+    width: 50%;
+    background: #ffff00;
+    margin: auto;
+    text-align: center;
+    /* display: inline-block; */
+    margin-top: 7px;
+}
+
+.com{
+    text-align: center;
+   margin-top:22px;
+}
+
+.com span{
+    background: #000;
+    color: white;
+    padding: 5px 12px;
+}
+
+.hero{
+    background-image: url("https://i.ibb.co/TPy2gF7/pngtree-modern-double-color-futuristic-neon-background-image-351866.jpg");
+   width: 100%;
+   height: 350px;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* banner3 */
+
+.banner3{
+    width: 100%;
+    height: 600px;
+    background: #4ab75c;
+    text-align: center;
+}
+.banner3 h2{
+
+margin-top: 100px;
+display: inline-block;
+
+}
+
+.pic{
+    position: absolute;
+   top: 1103px;
+   left: 314px;
+}
+.pic img{
+    width: 100px;
+}
+
+.you{
+    width: 478px;
+    text-align: left;
+    position: absolute;
+    top: 1124px;
+    left: 532px;
+
+}
+
+.you h4{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+.pic2 img{
+    width: 100px;
+}
+
+.pic2{
+    position: absolute;
+   top: 1336px;
+   left: 785px;
+
+}
+
+.you2{
+    width: 478px;
+    text-align: left;
+    position: absolute;
+    top: 1374px;
+    left: 302px;
+
+}
+
+
+.you2 h4{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+/* footer */
+.footer ul{
+    list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer li{
+    display: inline-block;
+    padding: 10px 20px;
+    border:1px solid #ddd;
+   margin-top:10px
+}
+
+.footer{
+    text-align: center;
+    background: #2c1a8e;
+    padding: 10px;
+}
+
+.footer ul li:first-child{
+    border-radius: 19px;
+}
+
+.footer ul li:last-child{
+    border-radius: 15px;
+}
+
+.footer ul li:nth-child(2){
+    border-radius: 15px;
+}
+
+.footer ul li:nth-child(3){
+    border-radius: 15px;
+}
+
+.footer ul li:nth-child(4){
+    border-radius: 15px ;
+}
